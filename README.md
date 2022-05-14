@@ -1,6 +1,8 @@
 # Good_Docking_Practice
 3 step "docking" protocal, initial docking to the most similar PDB, then a short MD to refine the binding pocket, finally IFD was applied to obtain the binding pose. This procedure would be more accurate than most existing IFD method since at very beginning we have chosen docked to the most similar ligand, then the main chain of amino acid, or the gyration of binding site has been addressed by MD.
 
+You don't have to repeat the knime workflow, but also you can do this procedure mannually with Maestro, taking the below image as a reference in terms of job sequences.
+
 Pre-requests: Schrodinger, knime
 
 ![Screenshot from 2022-05-14 14-29-18](https://user-images.githubusercontent.com/75652473/168411619-526051fb-58be-4ccb-bbb8-c38e743a1c11.png)
