@@ -1,0 +1,2 @@
+# Best_Docking_Practice
+3 step "docking" protocal, initial docking to the most similar PDB, then a short MD to refine the binding pocket, finally IFD was applied to obtain the binding pose. This procedure would be more accurate than most existing IFD method since at very beginning we have chosen docked to the most similar ligand, then the main chain of amino acid, or the gyration of binding site has been addressed by MD.
